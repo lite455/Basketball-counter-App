@@ -1,0 +1,35 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex">
+      <div class="team-cont">
+        <h2>Home</h2>
+        <p class="score" id="count-home">0</p>
+        <div>
+          <button onclick="PlusOne()">+1</button>
+          <button onclick="plusTwo()">+2</button>
+          <button onclick="plusThree()">+3</button>
+        </div>
+      </div>
+      <button id="btn" onclick="newGame()">NEW GAME</button>
+      <div class="team-cont">
+        <h2>Away</h2>
+        <p class="score" id="count-away">0</p>
+        <div>
+          <button onclick="PlusOneAway()">+1</button>
+          <button onclick="plusTwoAway()">+2</button>
+          <button onclick="plusThreeAway()">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

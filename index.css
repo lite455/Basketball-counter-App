@@ -1,0 +1,46 @@
+/** @format */
+
+h2 {
+  text-align: center;
+  color: #eeeeee;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+
+  margin: auto;
+  background-color: #1b244a;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.score {
+  width: 90px;
+  min-width: fit-content;
+  border: 2px solid gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: px;
+  font-size: 50px;
+  color: #f94f6d;
+  background-color: black;
+}
+
+button {
+  background-color: #1b244a;
+  border: 1px solid #eeeeee;
+  color: #eeeeee;
+}
+
+#btn {
+  height: fit-content;
+  align-self: flex-end;
+  padding-bottom: 0px;
+  margin-bottom: -20px;
+  background-color: aliceblue;
+  color: black;
+}
